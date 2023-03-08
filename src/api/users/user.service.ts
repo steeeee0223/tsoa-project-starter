@@ -1,7 +1,7 @@
 import { v4 } from 'uuid'
 
 import { User } from './user.schema'
-import { UUID } from '../common/schemas'
+import { UUID } from '../../common/schemas'
 
 // A post request should not contain an id.
 export type UserCreationParams = Pick<User, 'email' | 'name' | 'phoneNumbers'>

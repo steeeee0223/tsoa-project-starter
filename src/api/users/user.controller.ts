@@ -11,7 +11,7 @@ import {
     Example,
 } from 'tsoa'
 
-import { UUID } from '../common/schemas'
+import { UUID } from '../../common/schemas'
 import { User } from './user.schema'
 import { UsersService, UserCreationParams } from './user.service'
 

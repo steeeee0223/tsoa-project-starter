@@ -1,4 +1,4 @@
-import { UUID } from '../common/schemas'
+import { UUID } from '../../common/schemas'
 
 /**
  * User objects allow you to associate actions performed in the system with the user that performed them.
