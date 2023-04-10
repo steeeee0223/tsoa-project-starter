@@ -8,7 +8,7 @@ import express, {
 } from 'express'
 import swaggerUi from 'swagger-ui-express'
 
-import { RegisterRoutes } from '../build/routes'
+import { RegisterRoutes } from '@build/routes'
 import { errorHandler, notFoundHandler } from './middlewares'
 
 class App {
